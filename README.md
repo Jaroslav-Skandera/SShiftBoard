@@ -1,40 +1,43 @@
 # 📂 SShiftBoard – Text-based Staff Organizer
 
-**SShiftBoard** je textová aplikace pro organizaci směn, pracovníků a dat ve firmě. Projekt je ideální pro menší provozy, výrobní haly nebo interní použití ve výrobních týmech.
+**SShiftBoard** is a text-based application for organizing shifts, personnel, and internal data within a company. The project is ideal for small operations, production facilities, or internal use by manufacturing teams.
 
 ---
 
-## ✨ Funkce aplikace
+## ✨ Application Features
 
-- 📋 Evidence pracovníků ve dvou sekcích: **Backend** a **Clean Room**
-- 📞 Telefonní seznam
-- ✅ ToDo seznam úkolů
-- 🔐 Správa přístupových údajů ke stanicím
-- 📆 Směnový kalendář s automatickým výpočtem dle cyklu (Ranní / Noční / Volno)
+- 📋 Employee records split into two sections: **Backend** and **Clean Room**
+- 📞 Phone directory
+- ✅ ToDo task list
+- 🔐 Station login credential management
+- 📆 Shift calendar with automatic cycle calculation (Morning / Night / Off)
 
 ---
 
-## 📦 Použité technologie
+## 📦 Technologies Used
 
 - **Python 3**
-- Textové rozhraní v terminálu
-- Práce s **JSON** soubory pro trvalé ukládání dat
-- Interní kalendář pomocí `datetime`
-- Vše psáno a testováno v **PyCharm** IDE
+- Terminal-based text interface
+- Uses **JSON** files for persistent data storage
+- Built-in calendar using `datetime`
+- Entirely written and tested in **PyCharm** IDE
 
 ---
 
-## 🛠️ Vývoj
+## 🛠️ Development
 
-Tento projekt byl vytvořen jako výukový projekt během učení programování.
+This project was created as a learning project during Python programming education.
 
-- Psaní kódu probíhalo ve spolupráci s **ChatGPT 4.0**
-- Použit byl také **Canvas** režim pro přehlednou práci s větším skriptem
-- Autor: **Jaroslav Skandera**  
-- Web: [www.jskandera.tech](https://www.jskandera.tech)
+- Code was written in collaboration with **ChatGPT 4.0**
+- The **Canvas** editor was used to organize and manage a larger codebase efficiently
+- Author: **Jaroslav Skandera**  
+- Website: [www.jskandera.tech](https://www.jskandera.tech)
 
 ---
 
-## 🏁 Spuštění
+## 🏁 Getting Started
 
-1. Naklonuj repozitář:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Jaroslav-Skandera/SShiftBoard.git
